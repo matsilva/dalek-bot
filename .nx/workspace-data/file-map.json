@@ -1,0 +1,132 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.7.2",
+  "deps": {
+    "tslib": "^2.3.0",
+    "@nx/eslint": "19.7.2",
+    "@nx/eslint-plugin": "19.7.2",
+    "@nx/js": "19.7.2",
+    "@nx/vite": "19.7.2",
+    "@nx/web": "19.7.2",
+    "@nx/workspace": "19.7.2",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "18.16.9",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "@vitest/coverage-v8": "^1.0.4",
+    "@vitest/ui": "^1.3.1",
+    "eslint": "~8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "nx": "19.7.2",
+    "prettier": "^2.6.2",
+    "typescript": "~5.5.2",
+    "vite": "^5.0.0",
+    "vitest": "^1.3.1"
+  },
+  "pathMappings": {
+    "@dalek-bot/source": [
+      "src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "dalek-bot": [
+        {
+          "file": ".gitignore",
+          "hash": "3009140142791806673"
+        },
+        {
+          "file": "LICENSE",
+          "hash": "17573063991354584121"
+        },
+        {
+          "file": "README.md",
+          "hash": "8958300714232589239"
+        },
+        {
+          "file": "nx.json",
+          "hash": "14668781327064348504"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "10585590866612444679"
+        },
+        {
+          "file": "package.json",
+          "hash": "2798312147138550054",
+          "deps": [
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/js",
+            "npm:@nx/vite",
+            "npm:@nx/web",
+            "npm:@nx/workspace",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@types/node",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@vitest/coverage-v8",
+            "npm:@vitest/ui",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:nx",
+            "npm:prettier",
+            "npm:typescript",
+            "npm:vite",
+            "npm:vitest",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "project.json",
+          "hash": "1302355632848600467"
+        },
+        {
+          "file": "src/index.ts",
+          "hash": "9841294029952095740"
+        },
+        {
+          "file": "src/lib/dalek-bot.spec.ts",
+          "hash": "591631535590702420"
+        },
+        {
+          "file": "src/lib/dalek-bot.ts",
+          "hash": "2702089776518036755"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "11749095975747920199"
+        },
+        {
+          "file": "tsconfig.lib.json",
+          "hash": "2520924872737108679"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "5924136005829196371"
+        },
+        {
+          "file": "vite.config.ts",
+          "hash": "14330147540056077708",
+          "deps": [
+            "npm:vite",
+            "npm:@nx/vite"
+          ]
+        }
+      ]
+    }
+  }
+}

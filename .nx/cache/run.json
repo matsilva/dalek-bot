@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run build",
+    "startTime": "2024-09-11T12:53:00.694Z",
+    "endTime": "2024-09-11T12:53:01.586Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "dalek-bot:build",
+      "target": "build",
+      "projectName": "dalek-bot",
+      "hash": "16262764474895269389",
+      "startTime": "2024-09-11T12:53:00.701Z",
+      "endTime": "2024-09-11T12:53:01.585Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
